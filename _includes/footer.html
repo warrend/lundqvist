@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <nav>
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}">{{ site.email }} |</a>
+    {% endif %}
+          
+    {% if site.twitter_username %}
+      {% include icon-twitter.html username=site.twitter_username %}
+      <a href="#">{{site.twitter}}</a>
+    {% endif %}
+  </nav>
+  <div>
+    <p>{{site.title}} | {{ site.footer_copy | escape }}</p>
+  </div>
+</footer>

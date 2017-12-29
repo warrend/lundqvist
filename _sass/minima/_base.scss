@@ -1,0 +1,84 @@
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+iframe {
+  width: 100%;
+  height: 420px;
+}
+
+nav a:first-of-type {
+  margin-right: 10px;
+}
+
+a:link {
+  color: #222;
+}
+
+a:visited {
+  color: #222;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+a:active {
+  color: #222;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu {
+  margin-top: 15px;
+  a {
+    color: #fff;
+    background: $accent-color;
+    padding: 3px 12px;
+  }
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 600;
+	margin-bottom: 30px;
+	text-align: center;
+  border-left: 5px solid $header-color;
+  border-right: 5px solid $header-color;
+  padding: 0 10px 10px 10px;
+}
+
+.bold {
+	font-weight: 600;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.button {
+	float: left;
+  background-color: #222;
+  border: none;
+  color: white;
+  padding: 12px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Merriweather Sans', sans-serif;
+  margin-top: 15px;
+}

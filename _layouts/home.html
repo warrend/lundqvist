@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="intro">
+  <h2>Introducing the {{site.front_copy_title}}</h2>
+  <p>{{site.front_copy}}</p>
+  <button class="button">BUY</button>
+</div>
+
+<img class="front-image" src="assets/images/{{site.front_page}}" alt="">
+
+<img class="image1 box" src="assets/images/07.jpg" alt="">
+<img class="image2 box" src="assets/images/09.jpg" alt="">
+<img class="image3 box" src="assets/images/08.jpg" alt="">
+
+<div class="craft">
+  <h2>{{site.craft_copy_title}}</h2>
+  <p>{{site.craft_copy}}</p>
+</div>
+
+<div class="angles">
+  <img class="box" src="assets/images/10.jpg" alt="">
+  <img class="box" src="assets/images/12.jpg" alt="">
+  <img class="box" src="assets/images/22.jpg" alt="">
+  <img class="box" src="assets/images/18.jpg" alt="">
+  <img class="box" src="assets/images/17.jpg" alt="">
+  <img class="box" src="assets/images/13.jpg" alt="">
+</div>
+
+<div class="video">
+  <h2>{{site.video_copy_title}}</h2>
+  <p>{{site.video_copy}}</p>
+</div>
+
+
+<iframe id="video" class="video-container" src="https://www.youtube.com/embed/U0FCzcaMerA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+<img class="spec-img" src="assets/images/23.jpg" alt="">
+
+<section class="spec" id="specs">
+  <h2>Specifications</h2>
+  {% for spec in site.data.product %}
+  <p class="bold">{{spec.name}}</p>
+  <p>{{spec.spec}}</p>
+  {% endfor %}
+</section>

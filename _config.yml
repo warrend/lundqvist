@@ -1,0 +1,38 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Lundqvist & Svestrom
+email: warrend555@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Manufacturer of a complete line of audio and video products
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: lv
+front_page: 04.jpg
+front_copy_title: C7
+front_copy: Updating a modern classic with an innovative user interface and integration of more digital services USD 2,699
+craft_copy_title: Beautiful from all angles
+craft_copy: The C7 is designed and crafted like a beautiful piece of furniture – with a careful selection of materials and a great attention to detail. The days of wanting to hide your bulky black stereo are over. No matter where you choose to place the C7, it's going to look beautiful.
+video_copy_title: Crafting DS C7
+video_copy: Ever wondered how a product like DS C7 is built? Join us on a fascinating journey that shows you the crafting of a music system.
+footer_copy: Copyright 2016 Lundqvist & Svestrom. All rights reserved. Privacy Policy. Terms & Conditions. 
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
