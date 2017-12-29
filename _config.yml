@@ -18,8 +18,8 @@ email: warrend555@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Manufacturer of a complete line of audio and video products
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lv
+url: http://danielwarren.io
+twitter_username: lundqvist
 front_page: 04.jpg
 front_copy_title: C7
 front_copy: Updating a modern classic with an innovative user interface and integration of more digital services USD 2,699
