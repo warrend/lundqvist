@@ -17,7 +17,7 @@ title: Lundqvist & Svestrom
 email: warrend555@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Manufacturer of a complete line of audio and video products
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: /lundqvist
 url: http://danielwarren.io
 twitter_username: lundqvist
 front_page: 04.jpg
